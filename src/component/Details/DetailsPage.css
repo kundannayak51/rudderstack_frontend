@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.formBox {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.formDiv {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.inputYle {
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.inputCheck {
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.selectCat {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.optionsYle {
+  color: #ccc;
+}
+
+.submitBtn {
+  display: block;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submitBtn:hover {
+  background-color: #3e8e41;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-content p {
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+}
+
+.required {
+  content: "*";
+  color: red;
+  margin-right: 5px;
+}
